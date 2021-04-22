@@ -1,0 +1,25 @@
+.nav{
+    padding-top: 20px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 28px;
+            height: 21px;
+            margin-right: 10px;
+        }
+        &-text{
+            span{
+                font-size: 14px;
+                font-weight: 700;
+            }
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 18px;
+        }
+    }
+}
