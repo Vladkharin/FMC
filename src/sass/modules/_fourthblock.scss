@@ -1,0 +1,34 @@
+.fourthblock{
+    margin-top: 80px;
+    &__wrapper{
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    &__title{
+        color: #393939;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__block{
+        position: relative;
+        width: 570px;
+        height: 355px;
+        img{
+            width: 570px;
+        }
+        &-text{
+            position: absolute;
+            color: #ffffff;
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: center;
+            top: 145px;
+            left: 150px;
+        }
+    }
+}

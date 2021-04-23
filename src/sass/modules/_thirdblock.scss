@@ -1,0 +1,57 @@
+.thirdblock{
+    margin-top: 80px;
+    padding-top: 80px;
+    background: url('../../assets/image/third-bg.png');
+    height: 810px;
+    position: relative;
+    &__header{
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__menu{
+        margin: 0 auto;
+        width: 843px;
+        height: 65px;
+        border: 1px solid #ffffff;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: center;
+        border-radius: 10px;
+        a{
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25.99px;
+            text-align: center;
+            cursor: pointer;
+        }
+        &-divider{
+            height: 49px;
+            width: 1px;
+            background-color: #fff;
+            
+        }
+    }
+    &__btn{
+        &-left{
+            background: none;
+            border: none;
+            position: absolute;
+            top: 489px;
+            left: 432px;
+        }
+        &-right{
+            background:none;
+            border: none;
+            position: absolute;
+            top: 489px;
+            right: 401px;
+        }
+    }
+}
