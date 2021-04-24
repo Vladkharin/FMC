@@ -1,0 +1,207 @@
+@media (max-width: 1440px) {
+    #macbook{
+        top: 274px;
+        left: 250px;
+    }
+    .thirdblock{
+        &__btn{
+            &-left{
+                left: 250px;
+            }
+            &-right{
+                right: 240px;
+            }
+        }
+    }
+    .fifthblock{
+        &__title{
+            left: 555px;
+        }
+        &__wrapper{
+            &-left{
+                h5{
+                    left: 317px;
+                }
+                p{
+                    left: 170px;
+                }
+            }
+            &-right{
+                h5{
+                    right: 230px;
+                }
+                p{
+                    right: 130px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1024px) {
+    .container{
+        width: 950px;
+    }
+    .secondblock{
+        &__wrapper{
+            justify-content: center;
+            &-block{
+                margin-top: 10px;
+            }
+        }
+    }
+    #macbook{
+        width: 900px;
+        top: 274px;
+        left: 80px;
+    }
+    .thirdblock{
+        &__btn{
+            &-left{
+                left: 90px;
+            }
+            &-right{
+                right: 50px;
+            }
+        }
+    }
+    .fourthblock{
+        &__wrapper{
+            justify-content: center;
+        }
+        &__block{
+            width: 320px;
+            height: 200px;
+            img{
+                width: 320px;
+            }
+            &-text{
+                top: 60px;
+                left: 30px;
+            }
+        }
+    }
+    .fifthblock{
+        &__title{
+            left: 345px;
+        }
+        &__wrapper{
+            &-left{
+                h5{
+                    left: 100px;
+                }
+                p{
+                    left: 0;
+                }
+            }
+            &-right{
+                h5{
+                    right: 45px;
+                }
+                p{
+                    right: -45px;
+                }
+            }
+        }
+    }
+    .footer{
+        &__divider{
+            width: 940px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        width: 700px;
+    }
+    .nav{
+        display: none;
+    }
+    .firstblock{
+        &__nav{
+            &-menu{
+                width: 500px;
+            }
+        }
+    }
+    .thirdblock{
+        height: 650px;
+        &__menu{
+            width: 650px;
+        }
+    }
+    #macbook{
+        width: 600px;
+        top: 274px;
+        left: 80px;
+    }
+    .thirdblock{
+        &__btn{
+            &-left{
+                top: 420px;
+                left: 70px;
+            }
+            &-right{
+                top: 420px;
+                right: 50px;
+            }
+        }
+    }
+    .fifthblock{
+        display: none;
+    }
+    .footer{
+        &__divider{
+            width: 650px;
+        }
+    }
+}
+@media (max-width:480px) {
+    .container{
+        width: 320px;
+    }
+    .firstblock{
+        &__nav{
+            justify-content: center;
+            &-menu{
+                display: none;
+            }
+        }
+        &__text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-header{
+                font-size: 30px;
+            }
+        }
+    }
+    #macbook{
+        width: 200px;
+        top: 270px;
+        left: 60px;
+    }
+    .thirdblock{
+        height: 340px;
+        &__menu{
+            display: none;
+        }
+        &__btn{
+            &-left{
+                top: 295px;
+                left: 25px;
+            }
+            &-right{
+                top: 295px;
+                right: 15px;
+            }
+        }
+    }
+    .footer{
+        &__wrapper{
+            display: none;
+        }
+        &__divider{
+            width: 300px;
+        }
+    }
+}

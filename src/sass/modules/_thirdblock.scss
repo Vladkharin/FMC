@@ -1,7 +1,7 @@
 .thirdblock{
     margin-top: 80px;
     padding-top: 80px;
-    background: url('../../assets/image/third-bg.png');
+    background: url('../../assets/image/bg-4.png');
     height: 810px;
     position: relative;
     &__header{
@@ -54,4 +54,10 @@
             right: 401px;
         }
     }
+}
+
+#macbook{
+    position: absolute;
+    top: 285px;
+    left: 500px;
 }
